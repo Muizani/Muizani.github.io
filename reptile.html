@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head><title>REPTILE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<style>
+	h2{
+		background-color:black;
+		color:#DC7633;
+		text-shadow: 2px 1px #F8C471;
+		text-align:center;
+		padding:5px;
+	}
+	header {
+			background-color:black;
+			color:white;
+			text-align:center;
+			padding:5px;
+	}
+	*{box-sizing: border-box;}
+
+	.container {
+	position: relative;
+	width: 50%;
+	max-width: 300px;
+	}
+
+	.image {
+	display: block;
+	width: 200%;
+	height: auto;
+	}
+
+	.overlay {
+	position: absolute; 
+	bottom: 0; 
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);
+	color: #f1f1f1; 
+	width: 200%;
+	transition: .5s ease;
+	opacity:0;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+	}
+
+	.container:hover .overlay {
+	opacity: 1;
+	}
+	footer{
+		background-color:gray;
+		color:black;
+		opacity:0.5;
+		clear:both;
+		text-align:center;
+		padding:5px;
+	}
+	body {font-family: "Lato", sans-serif}
+	
+	</style>
+	</head>
+<center>
+<body background="forest.jpg">
+<header>
+	<div class="w3-bar w3-black">
+			<a href="animal.html" class="w3-bar-item w3-button ">HOME</a>
+			<a href="fish.html" class="w3-bar-item w3-button w3-hover-purple">FISH</a>
+			<a href="reptile.html" class="w3-bar-item w3-button w3-hover-blue">REPTILE</a>
+			<a href="mammal.html" class="w3-bar-item w3-button w3-hover-purple">MAMMAL</a>
+		</div>
+	<h2>REPTILE KINGDOM</h2>
+	<hr>
+	</header>
+	<marquee><h4 style="color:white">WELCOME TO THE REPTILE KINGDOM</h4></marquee>
+	
+		<table align="center" cellpadding="5px">
+		
+		<tr>
+		<td><div class="container" >
+		<a href="python.html"><img src="ular.jpg"  alt="ular" class="image">
+		<div class="overlay">python</div><br></div></td>
+
+		<td><div class="container">
+		<a href="pogona.html"><img src="pogona.jpg"  alt="pogona" class="image">
+		<div class="overlay">Pogona</div><br></div></td>
+		</tr>
+		<tr>
+		<td><div class="container">
+		<a href="iguana.html"><img src="iguana.jpg"  alt="iguana" class="image">
+		<div class="overlay">Iguana</div><br></td>
+		</div></div>
+		</tr>
+		</table>
+		
+	<footer>
+		 Copyright &copy;MisZ.com
+		</footer>
+	</body>
+</html>

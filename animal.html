@@ -1,0 +1,240 @@
+<html>
+	<head>
+	<title> Animal Kingdom </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="Lstyle.css">
+	<style>
+		header {
+			background-color:black;
+			color:white;
+			text-align:center;
+			padding:5px;
+		}
+		.overlay {
+			position: absolute; 
+			bottom: 0; 
+			background: rgb(0, 0, 0);
+			background: rgba(0, 0, 0, 0.5);
+			color: #f1f1f1; 
+			width: 200%;
+			transition: .5s ease;
+			opacity:0;
+			color: white;
+			font-size: 20px;
+			padding: 20px;
+			text-align: center;
+		}
+
+		.container:hover.overlay {
+			opacity: 1;
+		}
+		#navbar {
+			overflow: hidden;
+			background-color: #333;
+		}
+		#navbar a {
+			float: left;
+			display: block;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+		}
+		.content {
+			padding: 16px;
+		}
+	
+		.sticky {
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
+		.sticky + .content {
+			padding-top: 60px;
+		}
+		section{
+			
+			float:left;
+			padding:10px;
+		}
+		footer{
+			background-color:black;
+			opacity:0.1;
+			color:white;
+			opacity:0.5;
+			clear:both;
+			text-align:center;
+			padding:5px;
+		}
+		body {
+			font-family: "Lato", sans-serif
+		}
+		.first{
+			background-image:url("fish.jpg");
+			background-repeat:no-repeat;
+			 background-attachment: fixed;
+			background-position:center;
+			background-size: cover;
+			color: yellow;
+		}
+		.second{
+			background-image:url("lizard.jpg");
+			background-repeat:no-repeat;
+			 background-attachment: fixed;
+			background-position:center;
+			background-size: cover;
+			color: yellow;
+		}
+		
+		.third{
+			background-image:url("lion.jpg");
+			background-repeat:no-repeat;
+			background-attachment: fixed;
+			background-position:center;
+			background-size: cover;
+			color: yellow;
+		}
+		h1{
+		font-family: san-serif;
+		color:cyan;
+		text-shadow: 2px 2px #04279F;
+		}
+		video{
+			position:center;
+			height:50%;
+			width:100%;
+		}
+		.btn {
+			border: none;
+			background-color: inherit;
+			padding: 14px 28px;
+			font-size: 16px;
+			cursor: pointer;
+			display: inline-block;
+		}
+		.btn:hover {background: #eee;}
+		.success {
+			font-size:25px;
+			color: green;
+		}
+
+		.success:hover {
+			background-color: #4CAF50;
+			color: white;
+		}
+	
+		
+	</style>
+	</head>
+		
+	<body>
+		
+		<header>
+		<div id="navbar">
+		<div class="w3-bar w3-black">
+			<a href="index.html" class="w3-bar-item w3-button w3-hover-cyan">MAIN</a>
+			<a href="animal.html" class="w3-bar-item w3-button ">HOME</a>
+			<a href="#fish" class="w3-bar-item w3-button w3-hover-blue">FISH</a>
+			<a href="#reptile" class="w3-bar-item w3-button w3-hover-brown">REPTILE</a>
+			<a href="#mammal" class="w3-bar-item w3-button w3-hover-purple">MAMMAL</a>
+			<a href="comment.html" class="w3-bar-item w3-button w3-hover-green">FEEDBACK</a>
+		</div></div><hr>
+			<h1 style="font-size: 50px">ANIMAL KINGDOM</h1>
+		<table>
+		<td><div >
+		<video controls autoplay>
+			<source src="trailer.mp4" type="video/mp4">
+			<source src="trailer.ogg" type="video/ogg">
+		</video>
+		</div><br><br>
+		</td>
+		</table>
+		</header>
+		
+
+		<div >
+		 <section align="center" class="first" id="fish">
+			<br><br><br><h1 style="font-size:40px;" align="right">ABOUT FISH</h1>
+			
+			
+			<p style="font-size:25px" align="justify">All fish share two traits: they live in water and they have a backbone—they are vertebrates.
+
+				Apart from these similarities, however, many of the species in this group differ markedly from one another. Fin fish like salmon have gills, are covered in scales, and reproduce by laying eggs. Eels, by contrast, have worm-like bodies and exceedingly slimy skin. Lungfish gulp air. Whale sharks, the largest fish, give birth to live young and eat only tiny fish, squid, and plankton. Some species, such as the weedy sea dragon, are so bizarre they seem almost unreal.
+
+				Fish have developed special senses, too. Because water transmits sounds, disperses chemicals, and conducts electricity better than air, fish rely less on their vision and more on their hearing, taste, and smell. Many can detect motion in the water using a special row of scales with sensors known as the lateral line. Others can find their prey and even navigate by detecting electrical charges.
+
+				One reason fish are so diverse is that 70 percent of the planet is covered in water. The animals in this group live in a variety of habitats ranging from coral reefs and kelp forests to rivers, streams, and the open ocean. Another is that fish are very old on the evolutionary scale. According to fossil records, they have been on Earth for more than 500 million years! The total number of living fish species—about 32,000— is greater than the total of all other vertebrate species (amphibians, reptiles, birds, and mammals) combined.</p>
+		<br><br>
+		<a href="fish.html" class="btn success">More Info</a>
+		</section>
+		</div></div>
+		
+		<div >
+		<section align="center" class="second" id="reptile">
+			<br><br><br><h1 style="font-size:40px" align="left">ABOUT REPTILES</h1>
+			<br>
+			<p style="font-size:25px" align="justify">Reptiles are air-breathing vertebrates covered in special skin made up of scales, bony plates, or a combination of both.
+
+				They include crocodiles, snakes, lizards, turtles, and tor- toises. All regularly shed the outer layer of their skin. Their metabolism depends on the temperature of their environment.
+
+				Unlike birds and mammals, reptiles do not maintain a constant internal body temperature. Without fur or feathers for insulation, they cannot stay warm on a cold day, and without sweat glands or the ability to pant, they cannot cool off on a hot one. Instead, they move into the sun or into the shade as needed. During cooler parts of the year they become inactive. Because of their slow metabolism and heat-seeking behavior, reptiles are cold-blooded.
+
+				Reptile reproduction also depends on temperature. Only boas and pythons give birth to live young. The other species lay their eggs in a simple nest, and leave. The young hatch days to months later. The soil temperature is critical during this time: It determines how many hatchlings will be male or female. Young reptiles can glide, walk, and swim within hours of birth. Reptiles first appear in the fossil record 315 million years ago and were the dominant animals during the Mesozoic era, which lasted for 270 million years until the extinction of the dinosaurs.</p>
+		<br><br>
+		<a href="reptile.html" class="btn success">More Info</a>
+		<br><br><br><br>
+		</section>
+		</div>
+		
+
+		<div >
+		<section align="center" class="third" id="mammal">
+		<br><br><br><h1 style="font-size:40px">ABOUT MAMMALS</h1>
+
+			<p style="font-size:25px" align="justify">Mammals are among the most adaptable animals on the planet.
+
+				They are found on every continent and in every ocean, and range in size from tiny bumblebee bats to enormous blue whales. One reason for their success is the way they move. Mammals as a group use every possible form of locomotion. Terrestrial species walk, run, jump, climb, hop, swing, dig, and burrow. Aquatic ones swim, shuffle, and dive. A few even fly.
+
+				Diet and behavior vary, too. Many carnivores, for example, are top predators that live generally solitary lives. These include jaguars, tigers, and polar bears. By contrast, lions, otters, wolves, and dolphins live in family groups. Even more social are some of the herbivores, especially hoofed animals like deer and zebra. By living in large groups, they gain both protection against becoming another animal’s meal and more opportunities to breed.
+				Among omnivores, primates are known for their high intelligence, and rodents for their high numbers.
+
+				Mammal bones, especially skulls, are used for identification, and to work out the evolutionary history of each species. The jaws of a house cat are more lion- than wolf-like, for example. The teeth of horses and zebras look alike. The ear bones of mammals were once the jaws of prehistoric reptiles. And so on.
+
+				Despite these differences, all mammals share four traits that are shown in the diagram below: hair, mammary glands, a hinged jaw, and three tiny middle ear bones. Most have specialized teeth and moveable external ears.  </p>
+		<a href="mammal.html" class="btn success" > More Info </a>
+		<div >
+			<audio controls preload="metadata" >
+				<source src="roar.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+		</section>
+		</div>
+		<center>
+		
+		<footer>
+		 Copyright &copy;MisZ.com
+		</footer>
+		
+		<script>
+		window.onscroll = function() {myFunction()};
+
+		var navbar = document.getElementById("navbar");
+
+		var sticky = navbar.offsetTop;
+
+		function myFunction() {
+		if (window.pageYOffset >= sticky) {
+			navbar.classList.add("sticky")
+		} else {
+			navbar.classList.remove("sticky");
+		}
+		}
+		</script>
+		
+		
+	</body>
+	
+</html>

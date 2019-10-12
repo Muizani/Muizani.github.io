@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head><title>FISH</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<style>
+	h2{
+		background-color:black;
+		text-shadow: 1px 2px #021C74;
+		color:#3498DB ;
+		text-align:center;
+		padding:5px;
+	}
+	header {
+			background-color:black;
+			color:white;
+			text-align:center;
+			padding:5px;
+	}
+	*{box-sizing: border-box;}
+
+	.container {
+	position: relative;
+	width: 50%;
+	max-width: 300px;
+	}
+
+	.image {
+	display: block;
+	width: 200%;
+	height: auto;
+	}
+
+	.overlay {
+	position: absolute; 
+	bottom: 0; 
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);
+	color: #f1f1f1; 
+	width: 200%;
+	transition: .5s ease;
+	opacity:0;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+	}
+
+	.container:hover .overlay {
+	opacity: 1;
+	}
+	footer{
+		background-color:lightgray;
+		opacity:0.5;
+		color:black;
+		clear:both;
+		text-align:center;
+		padding:5px;
+	}
+	body {font-family: "Lato", sans-serif}
+	
+	</style>
+	</head>
+	
+<center>
+<body background="backikan.jpg">
+	<header>
+		<div class="w3-bar w3-black">
+			<a href="animal.html" class="w3-bar-item w3-button ">HOME</a>
+			<a href="fish.html" class="w3-bar-item w3-button w3-hover-blue">FISH</a>
+			<a href="reptile.html" class="w3-bar-item w3-button w3-hover-brown">REPTILE</a>
+			<a href="mammal.html" class="w3-bar-item w3-button w3-hover-purple">MAMMAL</a>
+		</div>
+	<font face="Lucida Console">
+	<h2>FISH KINGDOM</h2><hr>
+	</font>
+	</header>
+
+	<marquee><h4 style="color:black">WELCOME TO FISH KINGDOM </h4></marquee>
+	
+		<table align="center" cellpadding="5px">
+		
+		<tr>
+		<td><div class="container" >
+		<a href="manta.html"><img src="manta ray.jpg"  alt="manta ray" class="image">
+		<div class="overlay">Manta Ray</div><br></div></td>
+
+		<td><div class="container">
+		<a href="tuna.html"><img src="tuna.jpg"  alt="tuna" class="image">
+		<div class="overlay">Bluefin Tuna</div><br></div></td>
+		</tr>
+		<tr>
+		<td><div class="container">
+		<a href="shark.html"><img src="blacktip.jpg"  alt="balcktip" class="image">
+		<div class="overlay">Blacktip Shark</div><br></td>
+		</div></div>
+		</tr>
+		</table>
+		
+	<footer>
+		 Copyright &copy;MisZ.com
+		</footer>
+	</body>
+</html>

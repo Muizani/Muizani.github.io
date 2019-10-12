@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head><title>MAMMAL</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<style>
+	h2 {
+		background-color:black;
+		color:#8E44AD;
+		text-shadow: 2px 1px #6C3483;
+		text-align:center;
+		padding:5px;
+	}
+	header {
+			background-color:black;
+			color:white;
+			text-align:center;
+			padding:5px;
+	}
+	*{box-sizing: border-box;}
+
+	.container {
+	position: relative;
+	width: 50%;
+	max-width: 300px;
+	}
+
+	.image {
+	display: block;
+	width: 200%;
+	height: auto;
+	}
+
+	.overlay {
+	position: absolute; 
+	bottom: 0; 
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);
+	color: #f1f1f1; 
+	width: 200%;
+	transition: .5s ease;
+	opacity:0;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+	}
+
+	.container:hover .overlay {
+	opacity: 1;
+	}
+	footer{
+		background-color:lightgray;
+		color:black;
+		opacity:0.5;
+		clear:both;
+		text-align:center;
+		padding:5px;
+	}
+	body {font-family: "Lato", sans-serif}
+	
+	</style>
+	</head>
+<center>
+<body background="jungles.jpg">
+<header>
+	<div class="w3-bar w3-black">
+			<a href="animal.html" class="w3-bar-item w3-button ">HOME</a>
+			<a href="fish.html" class="w3-bar-item w3-button w3-hover-blue">FISH</a>
+			<a href="reptile.html" class="w3-bar-item w3-button w3-hover-brown">REPTILE</a>
+			<a href="mammal.html" class="w3-bar-item w3-button w3-hover-purple">MAMMAL</a>
+		</div>
+	<h2>MAMMAL KINGDOM</h2>
+	<hr>
+	</header>
+	<marquee><h4 style="color:white">WELCOME TO THE MAMMAL KINGDOM</h4></marquee>
+	
+		<table align="center" cellpadding="5px">
+		
+		<tr>
+		<td><div class="container" >
+		<a href="wolve.html"><img src="redwolve.jpg"  alt="wolve" class="image">
+		<div class="overlay">Red Wolve</div><br></div></td>
+
+		<td><div class="container">
+		<a href="bear.html"><img src="bear.jpg"  alt="bear" class="image">
+		<div class="overlay">Brown Bear</div><br></div></td>
+		</tr>
+		<tr>
+		<td><div class="container">
+		<a href="lion.html"><img src="singa.jpg"  alt="singa" class="image">
+		<div class="overlay">African Lion</div><br></td>
+		</div></div>
+		</tr>
+		</table>
+		
+	<footer>
+		 Copyright &copy;MisZ.com
+		</footer>
+	</body>
+</html>
